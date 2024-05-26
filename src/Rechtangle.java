@@ -1,2 +1,11 @@
-package PACKAGE_NAME;public class Rechtangle {
+public class Rechtangle extends shape
+{
+    double width;
+    double length;
+
+    @Override
+    public double getArea()
+    {
+        return (width*length);
+    }
 }
